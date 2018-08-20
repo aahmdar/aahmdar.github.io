@@ -15,6 +15,10 @@ h1{
 
 #article{
   font-family: 'slabo 27px',serif;
+  width: 60%;
+  margin: auto;
+  background-color: #fff;
+  padding : 20px;
 }
 
 p{
@@ -23,24 +27,30 @@ p{
 
 #logo {
   width: 200px;
-  height: 50px;
-  background-color: #FFFFFF;
+  height: 55px;
+  background-color: white;
   padding: 10px;
 }
 
 section{
   margin: auto;
-  widht: 70%;
+  width: 75%;
   padding: 20px;
   display: block;
   margin-top:100px
+}
+header nav {
+  float:right;
+  margin : auto;
+  padding: 10px;
+
 }
 
 #header{
   position: fixed;
   top: 0;
   overflow:hidden;
-  widht:100%
+  width:100%;
   background: white;
   z-index: 1;
 }
@@ -52,4 +62,8 @@ section{
   line-height: 50px;
   color:#fff;
   text-align:center;
+}
+
+section article{
+  border-bottom: 1px solid gainsboro;
 }
